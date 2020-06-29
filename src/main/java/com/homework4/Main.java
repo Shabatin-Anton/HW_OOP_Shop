@@ -36,7 +36,7 @@ public class Main {
         FoodProduct water = new FoodProduct("Borjomi", 2.3, 2000, Product.AgeRestriction.NONE);
         FoodProduct beer = new FoodProduct("Blanche", 4.50, 1000, Product.AgeRestriction.ADULT);
         FoodProduct burger = new FoodProduct("Big Mac", 2.30, 200, Product.AgeRestriction.TEENAGER);
-        FoodProduct snack = new FoodProduct("Lays",2.5,1223, Product.AgeRestriction.TEENAGER);
+        FoodProduct snack = new FoodProduct("Lays", 2.5, 1223, Product.AgeRestriction.TEENAGER);
 
         List<FoodProduct> foodProducts = new ArrayList<>();
         foodProducts.add(cigars);
@@ -49,11 +49,11 @@ public class Main {
             System.out.println(z);
         }
 
-        Customer pecata = new Customer("Pecata",17,30.00);
-        PurchaseManager.processPurchase(cigars,pecata);
+        Customer pecata = new Customer("Pecata", 17, 30.00);
+        PurchaseManager.processPurchase(cigars, pecata);
 
-        Customer gopeto = new Customer("Gopeto",15,100.44);
-        PurchaseManager.processPurchase(cigars,gopeto);
+        Customer gopeto = new Customer("Gopeto", 15, 100.44);
+        PurchaseManager.processPurchase(cigars, gopeto);
 
         System.out.println(gopeto.toString());
         System.out.println(pecata.toString());
