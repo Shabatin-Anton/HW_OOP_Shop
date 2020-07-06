@@ -1,7 +1,7 @@
 package main.java.com.homework4.interfaces;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 public interface Expirable {
-    Date getExpirationDate();
+    LocalDateTime getExpirationDate();
 }

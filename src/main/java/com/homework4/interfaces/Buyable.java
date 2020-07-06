@@ -1,5 +1,5 @@
 package main.java.com.homework4.interfaces;
 
-public interface Bayable {
+public interface Buyable {
     double getPrice();
 }
